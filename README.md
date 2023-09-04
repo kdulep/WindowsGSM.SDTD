@@ -1,4 +1,4 @@
-## 7 Days to Die - Experimental Beta Plugin
+## 7 Days to Die Plugin
 
 i forked plugin from https://github.com/LegendSeeker/WindowsGSM.SDTD_ExperimentalBeta
 
