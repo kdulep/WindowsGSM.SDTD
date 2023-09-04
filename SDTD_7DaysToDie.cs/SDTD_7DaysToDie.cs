@@ -36,7 +36,7 @@ namespace WindowsGSM.Plugins
             author = "LegendSeeker, kdulep",
             description = "🧩 WindowsGSM plugin for supporting 7 Days to Die Dedicated Server running Main branch",
             version = "0.2",
-            url = "https://github.com/LegendSeeker/WindowsGSM.SDTD_ExperimentalBeta", 
+            url = "https://github.com/kdulep/WindowsGSM.SDTD", 
             color = "#5c1504" // Color Hex
         };
 
@@ -45,7 +45,7 @@ namespace WindowsGSM.Plugins
         public new string Error;
         public new string Notice;
 
-        public string FullName = "7DTD Dedicated Server - Experimental Beta";
+        public string FullName = "7DTD Dedicated Server";
         public new string StartPath = "7DaysToDieServer.exe";
         public bool AllowsEmbedConsole = true;
         public int PortIncrements = 1;
