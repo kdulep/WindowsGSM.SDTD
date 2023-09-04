@@ -32,10 +32,10 @@ namespace WindowsGSM.Plugins
     {
         public Plugin Plugin = new Plugin
         {
-            name = "WindowsGSM.SDTD_ExperimentalBeta",
-            author = "LegendSeeker",
-            description = "🧩 WindowsGSM plugin for supporting 7 Days to Die Dedicated Server running Experimental Beta",
-            version = "0.1",
+            name = "WindowsGSM.SDTD",
+            author = "LegendSeeker, kdulep",
+            description = "🧩 WindowsGSM plugin for supporting 7 Days to Die Dedicated Server running Main branch",
+            version = "0.2",
             url = "https://github.com/LegendSeeker/WindowsGSM.SDTD_ExperimentalBeta", 
             color = "#5c1504" // Color Hex
         };
@@ -167,8 +167,8 @@ namespace WindowsGSM.Plugins
 
         public new async Task<Process> Update(bool validate = false, string custom = null)
         {
-            custom = "-beta latest_experimental";
-			validate = true;
+            custom = "";
+	    validate = true;
 			
             var (p, error) = await Installer.SteamCMD.UpdateEx(_serverData.ServerID, AppId, validate, custom: custom);
             Error = error;
